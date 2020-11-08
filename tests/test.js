@@ -7,3 +7,9 @@ describe('Validate setting the test', () => {
         assert.ok(true)
     })
 })
+
+describe('GET "/"', () => {
+    it('respond with Hello!', (done) => {
+        request(app).get('/').expect('Hello!', done)
+    })
+})
