@@ -1,0 +1,21 @@
+{
+    "name": "github-action",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "mocha ./tests/test --exit",
+      "unit-test": "mocha ./tests/unit-test --exit"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "mocha": "^8.2.0",
+      "supertest": "^5.0.0"
+    }
+  }
+  
